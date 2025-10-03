@@ -24,9 +24,9 @@ function Pandoc(doc)
   elseif doc.meta.latex_macros_file then
     -- Single file specified
     table.insert(tex_files, pandoc.utils.stringify(doc.meta.latex_macros_file))
-  else
+ -- else
     -- Default
-    table.insert(tex_files, "latex_macros.tex")
+ --   table.insert(tex_files, "_extensions/KBurbank/latex-macros/macros.tex")
   end
   
   -- Read and concatenate all tex files
