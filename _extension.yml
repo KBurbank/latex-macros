@@ -1,0 +1,8 @@
+title: LaTeX Macros Handler
+version: 1.0.0
+author: Kendra Burbank
+contributes:
+  filters:
+    - inject_latex_macros.lua
+    - parse_latex_simple.lua
+
