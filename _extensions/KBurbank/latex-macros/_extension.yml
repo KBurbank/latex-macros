@@ -5,7 +5,4 @@ contributes:
   filters:
     - inject_latex_macros.lua
     - parse_latex_simple.lua
-  html:
-    css:
-      - latex-macros.css
 
